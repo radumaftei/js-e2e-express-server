@@ -25,6 +25,6 @@ steps:
     containerRegistry: 'fmtc-acr-service-connection'
     repository: '$(imageRepo)'
     command: 'buildAndPush'
-    Dockerfile: '$(Build.SourcesDirectory)/App/Dockerfile'
+    Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
     tags: | 
       $(imageTag)
