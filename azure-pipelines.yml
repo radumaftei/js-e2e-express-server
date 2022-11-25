@@ -23,7 +23,7 @@ steps:
 - script: |
     pwd
     ls
-    displayName: 'PWD '
+  displayName: 'PWD '
 
 # - task: Docker@2
 #   inputs:
